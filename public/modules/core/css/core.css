@@ -1,0 +1,51 @@
+.content {
+	margin-top: 50px;
+}
+.undecorated-link:hover {
+	text-decoration: none;
+}
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+	display: none !important;
+}
+.ng-invalid.ng-dirty {
+	border-color: #FA787E;
+}
+.ng-valid.ng-dirty {
+	border-color: #78FA89;
+}
+.glyphicon.glyphicon-eye-open {
+	font-size: 50px;
+}
+.repo-panel {
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.repo-panel:hover {
+	cursor: pointer;
+	background-color: #ada;
+}
+.repo-panel:hover a {
+	text-decoration: none;
+}
+.text-white:hover {
+	color:white;
+}
+.user-icon {
+	max-width: 200px;
+	max-height: 200px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	border-radius: 150px;
+}
+.input[type="text"] {
+	padding: 10px;
+	border-width: medium medium 2px;
+	border-style: none none solid;
+	border-color: -moz-use-text-color -moz-use-text-color #C9C9C9;
+	-moz-border-top-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	border-image: none;
+	transition: border 0.3s ease 0s;
+}
